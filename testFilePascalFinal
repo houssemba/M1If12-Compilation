@@ -1,0 +1,18 @@
+program test;
+type t0 = array [1..5] of integer;
+const a = 8;
+var	b : ^real;
+    c : t0;
+function f0 ( const arg1 : real ) : real;
+function f01 () : integer;
+begin
+end;
+begin
+    f0 = arg1 * a;
+end
+procedure p0 ( arg1 : integer );
+begin
+end
+begin
+    p0 ( f0 ( *b ) );
+end
